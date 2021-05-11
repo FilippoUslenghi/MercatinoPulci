@@ -1,0 +1,74 @@
+@media (max-width: 527px) {
+    .title-watched{
+        font-size: 6.0vw;
+    }
+}
+
+.orange-nav{
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: black;
+}
+
+.orange-nav:hover{
+    color: #ff6c00;
+}
+
+.orange-nav:active, .orange-nav:focus{
+    background: #ff6c00 !important;
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white;
+    background-color: #ff6c00;
+}
+
+ul.rating {
+    display: flex;
+    list-style-type: none;
+}
+
+.profile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.profile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.orange-color {
+    color: #ff6c00 !important;
+}
+
+@media (max-width: 575px) {
+
+    .stelline {
+       display: inline-block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-newline{
+        display: grid;
+    }
+}
+
+.is-invalid > div > div > .text-danger {
+    display: block;
+}
+
+form > div > div > .text-danger {
+    display: none;
+}
+
+.bordo-zero{
+    border-radius: 0 !important;
+}
